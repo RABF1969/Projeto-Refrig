@@ -14,7 +14,7 @@
 }
 
 .item .title {
-  font-size: 12rem;
+  font-size: clamp(3rem, 10vw, 12rem);
   color: #ffffff;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -29,6 +29,7 @@
 
 .item .fruit {
   width: 90%;
+  max-width: 900px;
   position: absolute;
   top: 0;
   z-index: 1;
@@ -36,8 +37,7 @@
 
 .item .refri {
   z-index: 3;
-  width: 600px;
-
+  width: clamp(200px, 50vw, 600px);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -62,13 +62,14 @@
 }
 
 #prev {
-  left: 30px;
+  left: 20px;
 }
 
 #next {
-  right: 30px;
+  right: 20px;
 }
 
+/* Animações */
 @keyframes toActive {
   from {
     top: 100%;
@@ -85,4 +86,35 @@
 
 .item.active .title {
   animation: toActive 0.5s ease-in-out 1;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+  #prev,
+  #next {
+    width: 40px;
+    height: 40px;
+    font-size: large;
+  }
+
+  #prev {
+    left: 10px;
+  }
+
+  #next {
+    right: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .item .fruit {
+    width: 100%;
+  }
+
+  #prev,
+  #next {
+    width: 35px;
+    height: 35px;
+    font-size: medium;
+  }
 }
