@@ -12,7 +12,14 @@ Esse foi mais um projeto que eu aprendi no <a href="https://rodolfomori.com.br/d
   -  CSS
   -  JavaScript
 
-<p>Projeto responsivo em telas de celulares.</p>
+<p>Projeto simples mais funcional, responsivo em telas de celulares.</p>
 
 <img width="700px" src="https://github.com/RABF1969/Projeto-Refrig/blob/main/img/Projeto-Refri.png"/>
-<img width="700px" src="https://github.com/RABF1969/Projeto-Refrig/blob/main/img/projeto-refri-moble.png"/>
+
+<p align="center">
+  <img width="300px" src="https://github.com/RABF1969/Projeto-Refrig/blob/main/img/projeto-refri-moble.png"/>
+  &nbsp;&nbsp;&nbsp;
+  <img width="300px" src="https://github.com/RABF1969/Projeto-Refrig/blob/main/img/projeto-refri-moble-abacate.png"/>
+   &nbsp;&nbsp;&nbsp;
+   <img width="300px" src="https://github.com/RABF1969/Projeto-Refrig/blob/main/img/projeto-refri-moble-laranja.png"/>
+</p>
